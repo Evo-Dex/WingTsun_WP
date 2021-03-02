@@ -1,0 +1,516 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:34:33
+* VERSION: 1.3.38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.11                                |7.4.2
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2020-10-24 19:24:01
+WP VERSION__________: 5.5.1
+DUP VERSION_________: 1.3.38
+DB__________________: 10.3.25
+DB TABLES___________: 27
+DB ROWS_____________: 5,652
+DB FILE SIZE________: 5.92MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+DOC ROOT____________: "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/wt-lichtenberg-dup/20190703_vesqlichtenberg_[HASH]_20201024192401_archive.zip"
+SIZE________________: 73.59MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 07:34:41 - RUNTIME: 8.2749 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:39:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 10.3.25
+FILE SIZE:	dup-database__[HASH].sql (2.38MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/wt-lichtenberg-dup/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.26] is less than the build version [10.3.25].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/Applications/MAMP/htdocs/wt-lichtenberg-dup/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	4102
+
+dbvq_commentmeta: (0)
+dbvq_comments: (0)
+dbvq_duplicator_packages: (0)
+dbvq_links: (0)
+dbvq_mp_timetable_data: (12)
+dbvq_options: (191)
+dbvq_postmeta: (3373)
+dbvq_posts: (230)
+dbvq_term_relationships: (18)
+dbvq_term_taxonomy: (14)
+dbvq_termmeta: (0)
+dbvq_terms: (14)
+dbvq_usermeta: (30)
+dbvq_users: (1)
+dbvq_wc_avatars_cache: (0)
+dbvq_wc_comments_subscription: (0)
+dbvq_wc_feedback_forms: (0)
+dbvq_wc_follow_users: (0)
+dbvq_wc_phrases: (0)
+dbvq_wc_users_rated: (0)
+dbvq_wc_users_voted: (0)
+dbvq_yoast_indexable: (38)
+dbvq_yoast_indexable_hierarchy: (0)
+dbvq_yoast_migrations: (18)
+dbvq_yoast_primary_term: (0)
+dbvq_yoast_seo_links: (42)
+dbvq_yoast_seo_meta: (33)
+Removed '58' cache/transient rows
+
+INSERT DATA RUNTIME: 1.2474 sec.
+STEP-2 COMPLETE @ 07:39:14 - RUNTIME: 1.2624 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:39:50
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "VESQ Lichtenberg"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/customers/a/2/1/wt-lichtenberg.com/httpd.www"
+path_new______________: "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+siteurl_______________: "http://localhost:8888"
+url_old_______________: "http://www.wt-lichtenberg.com"
+url_new_______________: "http://localhost:8888"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "dbvq_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_comments"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_mp_timetable_data"__________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_options"____________________________________[ROWS:   191][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_postmeta"___________________________________[ROWS:  3373][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_posts"______________________________________[ROWS:   230][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_term_relationships"_________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_term_taxonomy"______________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_terms"______________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_usermeta"___________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_wc_avatars_cache"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_wc_comments_subscription"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_wc_feedback_forms"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_wc_follow_users"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_wc_phrases"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_wc_users_rated"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_wc_users_voted"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_yoast_indexable"____________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_yoast_indexable_hierarchy"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_yoast_migrations"___________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_yoast_primary_term"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dbvq_yoast_seo_links"____________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "dbvq_yoast_seo_meta"_____________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/customers/a/2/1/wt-lichtenberg.com/httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  2:"\/customers\/a\/2\/1\/wt-lichtenberg.com\/httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  3:"%2Fcustomers%2Fa%2F2%2F1%2Fwt-lichtenberg.com%2Fhttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  4:"\customers\a\2\1\wt-lichtenberg.com\httpd.www" ===> "/Applications/MAMP/htdocs/wt-lichtenberg-dup"
+	SEARCH  5:"\\customers\\a\\2\\1\\wt-lichtenberg.com\\httpd.www" => "\/Applications\/MAMP\/htdocs\/wt-lichtenberg-dup"
+	SEARCH  6:"%5Ccustomers%5Ca%5C2%5C1%5Cwt-lichtenberg.com%5Chttpd.www" => "%2FApplications%2FMAMP%2Fhtdocs%2Fwt-lichtenberg-dup"
+	SEARCH  7:"//www.wt-lichtenberg.com" ========================> "//localhost:8888"
+	SEARCH  8:"\/\/www.wt-lichtenberg.com" ======================> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fwww.wt-lichtenberg.com" ====================> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"//wt-lichtenberg.com" ============================> "//localhost:8888"
+	SEARCH 11:"\/\/wt-lichtenberg.com" ==========================> "\/\/localhost:8888"
+	SEARCH 12:"%2F%2Fwt-lichtenberg.com" ========================> "%2F%2Flocalhost%3A8888"
+	SEARCH 13:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 14:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+--------------------------------------
+SCANNED:	Tables:27 	|	 Rows:4014 	|	 Cells:22417 
+UPDATED:	Tables:5 	|	 Rows:308 	|	 Cells:333 
+ERRORS:		0 
+RUNTIME:	0.358200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""wt-lichtenberg-dup""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:39:51 - RUNTIME: 0.4183 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

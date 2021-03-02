@@ -1,0 +1,24 @@
+# Translation of Plugins - Classic Editor Addon - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Classic Editor Addon - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-23 05:36:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Classic Editor Addon - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "This free \"Classic Editor Addon\" plugin makes sure that the new block editor cannot be accidentally activated and blocks the calls to additional styles from the <code>&lt;head&gt;</code> (frontend). See README for details."
+msgstr "Dieses kostenlose Plugin „Classic Editor Addon“ stellt sicher, dass der neue Block-Editor nicht aus Versehen aktiviert werden kann und es blockiert die Aufrufe von zusätzlichen Styles im  <code>&lt;head&gt;</code> (Frontend), siehe README für weitere Details."
+
+#. Author of the plugin
+msgid "<a href=\"https://so-wp.com\">Pieter Bos</a>, <a href=\"https://gschoppe.com\">Greg Schoppe</a>"
+msgstr "<a href=\"https://so-wp.com\">Pieter Bos</a>, <a href=\"https://gschoppe.com\">Greg Schoppe</a>"
+
+#. Plugin Name of the plugin
+msgid "Classic Editor Addon"
+msgstr "Classic Editor Addon"
