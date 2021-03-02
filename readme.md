@@ -12,11 +12,11 @@ A custom WordPress Theme using Bootstrap and PHP. With courses info, Testimonial
 
 # Credits
 
-All Images &amp; Content : VESQ GmbH
-Bootstrap 4
-https://www.bradhussey.ca/
+All Images &amp; Content : VESQ GmbH,
+Bootstrap 4.
+https://www.bradhussey.ca/.
 WordPress
-</span></p>
+
 
 # License
 
